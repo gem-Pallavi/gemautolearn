@@ -1,0 +1,11 @@
+.autocomplete {
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 6rem;
+}
+
+.select-autocomplete {
+    border: 1px solid var(--dark-green);
+    color: var(--dark-green);
+}

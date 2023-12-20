@@ -1,0 +1,91 @@
+.newsletter {
+    flex: 0 0 auto;
+    width: 27% !important;
+}
+
+.footer-title {
+    color:var(--dark-green);
+}
+
+#footer-white {
+    margin-top: 6.5%;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer-img {
+    width: 4rem;
+    height: 4rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0 !important;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+ol {
+    padding-inline-start: 0px !important;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+ol a {
+    text-decoration: none;
+    color: black;
+}
+
+ol a:hover {
+    color: var(--dark-green);
+}
+
+.footer-logo {
+    
+    text-align: center;
+    color: var(--white);
+    padding: 1%;
+    height: 72px;
+}
+
+.footer-logo h4{
+    background-color: var(--dark-green);
+    
+}
+
+.newsletter-title{
+    color: var(--dark-green);
+    letter-spacing: 0em;
+    text-align: center;
+    font-size: 17px;
+}
+
+.newsletter-form {
+    margin-top: 1% !important;
+}
+
+.subscribe-btn {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border-radius: 57px;
+    border: 1px;
+    padding: 2% 5%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#footer-form{
+    border-top-left-radius: 57px !important;
+    border-bottom-left-radius: 57px !important;
+    padding: 2%  5% !important;
+    border-color: var(--dark-green) !important;
+    color: var(--dark-green) !important;
+    opacity: 1;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    line-height:  18px !important;
+}
+

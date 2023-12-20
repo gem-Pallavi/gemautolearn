@@ -1,0 +1,19 @@
+.custom-select {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.custom-select select {
+    width: 16%;
+    border: 1px solid var(--dark-green);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    color: var(--dark-green);
+    text-align: center;
+}
+
+#selected-value {
+    color: var(--dark-green);
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+}

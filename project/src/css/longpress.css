@@ -1,0 +1,34 @@
+#longpress-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 28rem;
+}
+
+#longpress-btn:hover {
+    background-color: var(--light-green);
+}
+
+#press-text {
+    width: 10rem;
+    color: var(--dark-green);
+    font-size: 1.3rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    margin-left: 28rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+    #longpress-btn {
+        margin-left: 17rem;
+    }
+
+    #press-text {
+        margin-left: 16.7rem;
+    }
+}

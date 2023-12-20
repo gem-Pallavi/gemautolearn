@@ -1,0 +1,36 @@
+.source-ele {
+    margin-top: 2rem;
+    border-radius: 50%;
+    background-color: var(--light-green);
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 1.7rem;
+    color: var(--white);
+    cursor: pointer;
+    position: relative;
+}
+
+.target-ele {
+    border-radius: 50%;
+    background-color: var(--dark-green);
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 1.7rem;
+    color: var(--white);
+    margin-left: 20rem;
+    margin-top: -4.7rem;
+    position: relative;
+}
+
+#drop-txt {
+    color: var(--dark-green);
+    position: absolute;
+    margin-top: -3rem;
+    z-index: 2;
+    margin-left: 27rem;
+    font-size: 1.1rem;
+}

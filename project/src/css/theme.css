@@ -1,0 +1,53 @@
+.toggle {
+    transition: background-color 0.3s ease;
+    border-radius: 0.5rem;
+    width: 80%;
+    padding-left: 2rem;
+}
+
+.light {
+    background-color: white;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+#theme-button {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 26rem;
+}
+
+#theme-button:hover {
+    background-color: var(--light-green);
+}
+
+@media only screen and (max-width: 769px) {
+    #theme-button {
+        margin-left: 0rem !important;
+    }
+
+    .question-ul {
+        width: 38rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #theme-button {
+        margin-left: 21rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .toggle {
+        width: 70%;
+    }
+}

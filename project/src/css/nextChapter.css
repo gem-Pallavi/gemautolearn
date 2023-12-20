@@ -1,0 +1,73 @@
+.next-chapter {
+    margin-top: 2rem;
+}
+
+.chapter-content {
+    text-align: center; 
+    width: 70%;
+    margin: auto;
+}
+
+.chapter-heading {
+    color: var(--dark-green);
+    margin-top: 2rem;
+}
+
+.chapter-content > p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 125.9%;
+}
+
+.chapter-name {
+    padding-top: 2rem;
+}
+
+.chapter-button {
+    width: 13rem;
+    height: 2.5rem;
+    border-radius: 0.4375rem;
+    border: 1.5px solid var(--dark-green);
+    justify-content: center;
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 400;
+    background-color: var(--white);
+    margin-top: 2rem;
+}
+
+.chapter-button:hover {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: 1.5px solid var(--dark-green);
+}
+
+.confetti {
+    opacity: 1;
+}
+
+.congrats {
+    text-align: center; 
+    width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.congrats > p {
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .next-chapter {
+        margin-top: 9rem;
+        height: 33vh;
+        margin-bottom: 9.12rem;
+    }
+
+    .congrats {
+        margin-bottom: 17rem;
+        margin-top: 17rem;
+    }
+}

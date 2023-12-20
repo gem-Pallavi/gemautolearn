@@ -1,0 +1,23 @@
+@import "rsuite/dist/rsuite-no-reset.min.css";
+
+.slider {
+    margin-top: 3rem;
+    width: 60%;
+    margin-left: 0rem;
+}
+
+.rs-slider-progress-bar {
+    background-color: var(--dark-green) !important;
+    width: 50%;
+}
+
+.rs-slider-handle::before {
+    border: 2px solid var(--dark-green);
+}
+
+#slider-text {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--dark-green);
+}

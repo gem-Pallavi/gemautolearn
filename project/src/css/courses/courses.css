@@ -1,0 +1,20 @@
+.view-search {
+    padding: 2%;
+    width: 80%;
+}
+
+.search-course {
+    width: 300px;
+    position: absolute;
+    right: 5%;
+}
+
+.toggle-courses {
+    width: 4%;
+    left: 4.5%;
+    background-color: var(--dark-green);
+}
+
+.ant-switch-inner {
+    background-color: var(--dark-green);
+}

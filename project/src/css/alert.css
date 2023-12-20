@@ -1,0 +1,104 @@
+.alert-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 2rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 2.8rem;
+}
+
+.alert-btn:hover {
+    background-color: var(--white);
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+}
+
+.alert-text {
+    width: 10rem;
+    color: var(--dark-green);
+    font-size: 1.3rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+.alert-texts {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.simple,
+.confirm,
+.prompt {
+    width: 25%;
+}
+
+#confirm-btn {
+    width: 10.25rem;
+    height: 1.875rem;
+    margin-left: 14rem;
+    margin-top: -2rem;
+}
+
+#prompt-btn {
+    margin-left: 27.3rem;
+    margin-top: -2rem;
+}
+
+#notif-alert {
+    width: 13rem;
+    margin-top: 1rem;
+    margin-left: 13rem;
+}
+
+#simple-text {
+    margin-left: 0.7rem;
+}
+
+#confirmation-text {
+    margin-left: 2.6rem;
+}
+
+#prompt-text {
+    margin-left: 2rem;
+}
+
+#notif-text {
+    margin-top: 4rem;
+    width: 15rem;
+    margin-left: -12rem;
+}
+
+.question-ul {
+    width: 42rem;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 147.9%;
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.side-img {
+    z-index: 2;
+    position: absolute;
+    margin-top: -22rem;
+    margin-left: 52rem;
+    border: 1px solid var(--dark-green);
+    border-radius: 1rem;
+    background-color: var(--grey);
+    width: 15rem;
+}
+
+.question-vector {
+    width: 13rem;
+    height: 13rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .side-img {
+        margin-left: 45rem;
+        margin-top: -20rem;
+    }
+}

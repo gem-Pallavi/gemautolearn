@@ -1,0 +1,24 @@
+.active-tabs {
+    margin-top: 1rem;
+}
+
+.tabs {
+    color: var(--dark-green);
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.tabs.active {
+    background-color: var(--dark-green) !important;
+}
+
+.tab-text {
+    margin-top: 2rem;
+    width: 23%;
+    text-align: center;
+}
+
+#tab1-content {
+    color: var(--dark-green);
+    font-size: 1.1rem;
+}

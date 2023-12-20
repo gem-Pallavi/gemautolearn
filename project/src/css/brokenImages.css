@@ -1,0 +1,6 @@
+.broken-images > img {
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 1rem;
+}

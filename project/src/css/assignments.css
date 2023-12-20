@@ -1,0 +1,110 @@
+.practice {
+    padding-top: 3rem;
+    width: 60rem;
+}
+
+#background-practice {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+    /* position: absolute; */
+}
+
+.practice h2{
+    color: var(--dark-green);
+    font-weight: 600;
+}
+
+.practice p {
+    width: 58.27338rem;
+    font-weight: 350;
+    font-size: 1.0625rem;
+    line-height: 147.9%;
+    padding-top: 0.5rem;
+}
+
+.circle-svg {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.all-difficulties {
+    margin-top: -12rem;
+    position: relative;
+}
+
+.horizontal-line {
+    margin-left: 2rem;
+    position: absolute;
+    margin-top: -1.5rem;
+    z-index: -1;
+    width: 8.3%;
+    filter: brightness(10%);
+}
+
+.vertical-line {
+    position: absolute;
+    margin-left: 3.5rem;
+    height: 140%;
+}
+
+.bg1 {
+    opacity: 0.5;
+}
+
+#practice-page-top {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 33rem;
+    position: absolute;
+    z-index: 4;
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .circle-svg {
+       margin-left: 1rem;
+    }
+    .horizontal-line {
+        width: 6.25%;
+    }
+    .vertical-line {
+        margin-left: 2.5rem;
+        height: 185%;
+        min-height: 185%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .circle-svg {
+        margin-left: 4rem;
+    }
+    .horizontal-line {
+        margin-left: 6.1rem;
+    }
+    .vertical-line {
+        margin-left: 5.5rem;
+        height: 160%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 821px) {
+    .circle-svg, .horizontal-line, .vertical-line {
+        visibility: hidden;
+    }
+
+    #background-practice {
+        overflow-y: hidden;
+    }
+}

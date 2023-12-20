@@ -1,0 +1,39 @@
+.horizontal-scroll {
+    width: 50rem;
+    margin-left: 4rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    flex-wrap: nowrap;
+}
+
+.scroll-btn {
+    margin-left: 2rem;
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    display: inline-block;
+}
+
+.scroll-btn:hover {
+    background-color: var(--light-green);
+}
+
+.output-txt {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-left: 25rem;
+    color: var(--dark-green);
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .horizontal-scroll {
+        width: 44rem;
+    }
+}

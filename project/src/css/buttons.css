@@ -1,0 +1,70 @@
+.click-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 2.8rem;
+}
+
+.click-btn:hover {
+    background-color: var(--light-green);
+}
+
+.click-text {
+    width: 13rem;
+    color: var(--dark-green);
+    font-size: 1.3rem;
+    font-size: 0.9375rem;
+    font-weight: 400;
+}
+
+.click-texts {
+    margin-top: 2rem;
+    margin-left: 13rem;
+}
+
+.single,
+.double,
+.context {
+    width: 25%;
+    margin-left: 12rem;
+}
+
+#doubleClick-btn {
+    width: 10.25rem;
+    height: 1.875rem;
+    margin-left: 16rem;
+    margin-top: -2rem;
+}
+
+#rightClick-btn {
+    margin-left: 31.3rem;
+    margin-top: -2rem;
+}
+
+#single-text {
+    margin-left: 0.7rem;
+}
+
+#double-text {
+    margin-left: 1rem;
+}
+
+#rightClick-text {
+    margin-left: 1.3rem;
+}
+
+
+@media only screen and (max-width: 769px) {
+    .single,
+    .double,
+    .context {
+        margin-left: 0rem;
+    } 
+    .click-texts {
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,32 @@
+.progress-bar {
+    background-color: var(--dark-green);
+    height: 2rem;
+    align-items: left;
+    margin-top: 2rem;
+    color: white;
+}
+
+.progress-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 22rem;
+}
+
+.progress-btn:hover {
+    background-color: var(--light-green);
+}
+
+#progress-btn-stop {
+    margin-left: 4rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .progress-btn {
+        margin-left: 10rem;
+    }
+}

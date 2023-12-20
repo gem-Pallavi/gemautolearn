@@ -1,0 +1,52 @@
+.web-table {
+    width: 50%;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.btns {
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 0rem;
+}
+
+.table-btn {
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}
+
+#webtable-form {
+    margin-top: 2rem;
+    position: absolute;
+    box-shadow: 0px 0px 10px;
+    background-color: white;
+    width: 45%;
+    height: 70%;    
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.webtable-form-label {
+    margin-top: 1rem;
+}
+
+.webtable-form-input {
+    width: 80%;
+}
+
+.webtable-form-btn {
+    margin-top: 2rem;
+}
+
+.webtable-heading {
+    color: var(--dark-green) !important;
+}
+
+@media only screen and (max-width: 769px) {
+    #webtable-form {
+        width: 60%;
+        height: 48%;
+        z-index: 5;
+    }
+}

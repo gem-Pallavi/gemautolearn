@@ -1,0 +1,29 @@
+.uploadBtn{ 
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 28rem;
+}
+
+.fileUpload > p {
+    color: var(--dark-green);
+    z-index: 1;
+    position: relative;
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-left: 27.9rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .uploadBtn {
+        margin-left: 16.7rem;
+    }
+
+    .fileUpload > p {
+        margin-left: 16.5rem;
+    }
+}

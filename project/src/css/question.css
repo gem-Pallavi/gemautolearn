@@ -1,0 +1,18 @@
+.question {
+    margin-top: 3rem;
+}
+
+#question-heading {
+    color: var(--dark-green);
+    padding-top: 2rem;
+}
+
+.paragraph {
+    width: 50rem;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 147.9%;
+    margin-top: 1.3rem;
+}
+

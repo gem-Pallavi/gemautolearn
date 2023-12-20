@@ -1,0 +1,12 @@
+.broken-link {
+    color: var(--dark-green);
+    margin-left: 2rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .broken-links {
+        height: 5.4rem;
+    }
+}

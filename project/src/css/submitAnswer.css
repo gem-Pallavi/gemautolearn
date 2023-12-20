@@ -1,0 +1,107 @@
+.file-upload {
+    margin-left: 45rem;
+    margin-top: 2.5rem;
+    width: 20rem;
+}
+
+.upload-btn {
+    width: 14.65275rem;
+    height: 2.5rem;
+    border-radius: 0.4375rem;
+    border: 1.5px solid var(--dark-green);
+    justify-content: center;
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 400;
+    background-color: var(--white);
+}
+
+.upload-btn:hover {
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: 1.5px solid var(--dark-green);
+}
+
+.file-upload > p {
+    color: var(--light-green);
+    z-index: 1;
+    position: relative;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.next-question {
+    margin-left: 49rem;
+    margin-top: 1.5rem;
+}
+
+.next-link {
+    width: 8.27138rem;
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.next-link:hover {
+    color: var(--light-green);
+}
+
+.next-arrow {
+    width: 3rem;
+    margin-top: -2.5rem;
+    margin-left: 7.3rem;
+    cursor: pointer;
+    stroke-width: 1px;
+    stroke: var(--dark-green);
+}
+
+.file-upload-message {
+    margin-left: 3.5rem;
+}
+
+.success {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--dark-green);
+    position: absolute;
+    margin-top: -23rem;
+    margin-left: 2rem;
+    opacity: 1;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+@media screen and (max-width: 1024px) {
+    .file-upload {
+        margin-left: 40rem;
+    }
+    .next-question {
+        margin-left: 44rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .file-upload {
+        margin-left: 14rem;
+        margin-top: 6rem;
+    }
+
+    .next-question {
+        margin-left: 30rem;
+    }
+
+    #question {
+        width: 80%;
+    }
+
+    .paragraph {
+        width: 80%;
+    }
+}

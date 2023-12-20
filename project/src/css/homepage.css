@@ -1,0 +1,88 @@
+#common {
+    height: 31.7rem;
+    position: relative;
+    z-index: 1;
+}
+
+#background-video {
+    width: 100vw;
+    /* height: 100vh; */
+    height: 31.7rem;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+    position: absolute;
+    margin-top: -11rem;
+    border: none;
+}
+
+#left-div {
+    margin-top: 10.5rem;
+    text-align: center;
+}
+
+/* #left-div {
+    margin-top: 10.5rem;
+    margin-left: 4rem;  
+} */
+
+#left-div h2 {
+    color: var(--dark-green);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.4%; 
+}
+
+#left-div p {
+    color: black;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125.9%;
+}
+
+.login-signup {
+    width: 8.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: 1.75rem;
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1rem;
+    box-shadow: 0;
+    transition: box-shadow 0.3s;
+}
+
+#login-btn {
+    border: 1px solid var(--dark-green);
+    background: var(--dark-green);
+    color: var(--white);
+    
+}
+
+#login-btn:hover {
+    border: 1px solid var(--light-green);
+    border-radius: 1.75rem;
+    background: var(--light-green);
+    color: #fff; 
+    box-shadow: 2px 5px 3px var(--dark-green);
+}
+
+#signup-btn {
+    border: 1.5px solid var(--light-green);
+    background: var(--white);
+    color: var(--light-green);
+    margin-left: 1.5rem;
+}
+
+#signup-btn:hover {
+    box-shadow: 2px 5px 3px var(--dark-green);
+}
+

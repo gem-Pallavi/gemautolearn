@@ -1,0 +1,3 @@
+.nested-iframes > iframe {
+    border: 1px solid black;
+}

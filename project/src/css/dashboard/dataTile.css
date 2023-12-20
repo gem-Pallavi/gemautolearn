@@ -1,0 +1,44 @@
+.dashboard-data {
+    margin-top: 5rem;
+}
+
+.data-tiles {
+    margin-top: 2rem;
+}
+
+.data-tile {
+    background-color: white;
+    width: 12.0625rem !important;
+    height: 6.6875rem;
+    border-radius: 0.4375rem;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.data-tile-heading {
+    font-weight: 600;
+    font-size: 0.9375rem;
+    padding-top: 1rem;
+}
+
+.data-tile-data {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-left: 0.4rem;
+}
+
+#download-report-btn {
+    width: 11.0625rem;
+    height: 2.75rem;
+    margin-left: 21rem;
+    border-radius: 1.75rem;
+    border: 1px solid var(--dark-green);
+}
+
+#welcome-back {
+    width: 22.75rem;
+    font-size: 1.5625rem;
+    margin-left: 1rem;
+}

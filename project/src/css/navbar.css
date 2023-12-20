@@ -1,0 +1,88 @@
+#navbar {
+    background-color: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.logo {
+    width: 4.8125rem;
+    height: 4.8125rem;
+    margin-left: -2rem;
+    margin-top: -0.5rem;
+}
+
+#logo-heading {
+    color: var(--dark-green);
+    margin-top: -3.5rem;
+    margin-left: 3.5rem;
+}
+
+.nav-items {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 10px;
+    text-decoration: none !important;
+}
+
+.nav-items:hover {
+    color: var(--dark-green);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--dark-green);
+}
+
+#dashboard-tab {
+    color: var(--dark-green);
+    text-align: center;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid var(--dark-green);
+    border-radius: 30px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    border-spacing: 0;
+}
+
+#dashboard-tab:hover {
+    color: var(--white);
+    background-color: var(--dark-green);
+    border: 2px solid var(--dark-green);
+}
+
+#dashboard-tab.active:hover {
+    color: var(--white) !important;
+}
+
+#parent-nav a {
+    padding: 1% 1.3rem !important;
+}
+
+#parent-nav a.active {
+    color: var(--dark-green);
+    font-weight: 700;
+}
+
+#responsive-navbar-nav {
+    text-align: center;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 0rem;
+    }
+
+    #logo-heading {
+        margin-left: 5rem;
+    }
+}
+

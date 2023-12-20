@@ -1,0 +1,52 @@
+.popup-text {
+    rotate: 180deg;
+}
+
+.popup-content {
+    background: rgb(255, 255, 255);
+    width: 20rem !important;
+    padding: 5px;
+    text-align: center;
+    rotate: 180deg;
+    margin-top: -6.5rem !important;
+    margin-left: -2rem;
+  }
+
+  #popup-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 3.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 28rem;
+  }
+
+  #popup-btn:hover {
+    background-color: var(--light-green);
+  }
+
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+
+  [role='tooltip'].popup-content {
+    width: 200px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+  @media only screen and (max-width: 769px) {
+    #popup-btn {
+      margin-left: 16.5rem;
+    }
+  }

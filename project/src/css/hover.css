@@ -1,0 +1,31 @@
+.hover-btn {
+    width: 8.25rem;
+    height: 1.875rem;
+    margin-top: 1.5rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    border: none;
+    border-radius: 0.125rem;
+    margin-left: 28rem;
+}
+
+.hover-btn:hover {
+    background-color: var(--light-green);
+}
+
+#hover-txt {
+    margin-top: 1rem;
+    margin-left: 27.4rem;
+    color: var(--dark-green);
+    font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .hover-btn {
+        margin-left: 16.7rem;
+    }
+
+    #hover-txt {
+        margin-left: 16.5rem;
+    }
+}

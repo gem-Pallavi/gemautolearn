@@ -1,0 +1,30 @@
+.dragx {
+    position: absolute;
+    cursor: move;
+    color: black;
+    max-width: 215px;
+    border-radius: 5px;
+    padding: 1em;
+    margin: auto;
+    user-select: none;
+    background-color: var(--grey);
+}
+
+.drag-drop-axis {
+    width: 50%;
+    /* background-color: var(--dark-green); */
+    height: 20rem;  
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#drag-content {
+    font-size: 1.1rem;
+    color: var(--dark-green);
+}
+
+#y-axis {
+    margin-top: 7rem;
+}

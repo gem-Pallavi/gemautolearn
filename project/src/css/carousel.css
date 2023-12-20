@@ -1,0 +1,14 @@
+.carousel {
+    width: 80%;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 0.7rem;
+}
+
+.carousel-heading {
+    color: var(--white) !important;
+}
+
+.carousel-inner {
+    border-radius: 0.5rem;
+}
